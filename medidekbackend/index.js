@@ -1,9 +1,8 @@
 const express =require("express");
 const app =express();
 const cors =require("cors");
-require("dotenv").config();
 require("./config/conn")
-const port =process.env.PORT;
+const port = 5000;
 const userroute =require("./Router/userroute");
 const productroute =require("./Router/Productroute");
 
