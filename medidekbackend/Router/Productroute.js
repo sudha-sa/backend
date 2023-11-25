@@ -10,4 +10,4 @@ Productroute.put("/update/:productid",upload.single("image"),editproduct)
 Productroute.delete("/delete/:id",deleteproduct)
 Productroute.get("/product/:id",singleproduct)
 
-module.exports =Productroute;class
+module.exports =Productroute;
